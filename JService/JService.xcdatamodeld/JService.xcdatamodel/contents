@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17709" systemVersion="20C69" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="JeopardyClues" representedClassName="JeopardyClues" syncable="YES" codeGenerationType="class">
+        <attribute name="answers" optional="YES" attributeType="String"/>
+        <attribute name="questions" optional="YES" attributeType="String"/>
+        <relationship name="relationship" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="JeopardyClues" inverseName="relationship" inverseEntity="JeopardyClues"/>
+    </entity>
+    <elements>
+        <element name="JeopardyClues" positionX="-36" positionY="9" width="128" height="88"/>
+    </elements>
+</model>
